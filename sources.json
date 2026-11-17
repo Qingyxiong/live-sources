@@ -112,30 +112,6 @@
   "source": "jk026051.m3u"
  },
  {
-  "name": "人间卫视",
-  "group": "卫视",
-  "url": "http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u",
-  "latency_s": 3.81,
-  "host": "61.216.67.119",
-  "source": "hebi_weishi.m3u"
- },
- {
-  "name": "人间卫视",
-  "group": "卫视",
-  "url": "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w614428743.m3u8",
-  "latency_s": 2.57,
-  "host": "5ddce30eb4b55.streamlock.net",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "人间卫视",
-  "group": "卫视",
-  "url": "http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8",
-  "latency_s": 0.47,
-  "host": "61.216.67.119",
-  "source": "biggrand.m3u"
- },
- {
   "name": "兵团卫视",
   "group": "卫视",
   "url": "http://218.13.170.98:9901/tsfile/live/0115_1.m3u8",
@@ -1136,22 +1112,6 @@
   "source": "jk0312.m3u"
  },
  {
-  "name": "中视 HD",
-  "group": "地方台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV42.m3u8",
-  "latency_s": 5.58,
-  "host": "raw.githubusercontent.com",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "中视新闻",
-  "group": "地方台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8",
-  "latency_s": 0.48,
-  "host": "raw.githubusercontent.com",
-  "source": "biggrand.m3u"
- },
- {
   "name": "临沂农科",
   "group": "地方台",
   "url": "https://m3u8-channel.lytv.tv/nmip-media/channellive/channel115062/playlist.m3u8",
@@ -1254,14 +1214,6 @@
   "latency_s": 3.27,
   "host": "zbbf2.ahbztv.com",
   "source": "zhi35.m3u"
- },
- {
-  "name": "人間衛視",
-  "group": "地方台",
-  "url": "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8",
-  "latency_s": 1.42,
-  "host": "5ddce30eb4b55.streamlock.net",
-  "source": "wmenjoy.m3u"
  },
  {
   "name": "仙剑奇侠传",
@@ -1430,14 +1382,6 @@
   "latency_s": 0.97,
   "host": "stream.pbs.gov.tw",
   "source": "biggrand.m3u"
- },
- {
-  "name": "八大戏剧台",
-  "group": "地方台",
-  "url": "http://61.221.215.25:8800/hls/39/index.m3u8",
-  "latency_s": 2.59,
-  "host": "61.221.215.25",
-  "source": "hebi_gangtai.m3u"
  },
  {
   "name": "六安公共",
@@ -1918,22 +1862,6 @@
   "latency_s": 5.96,
   "host": "stream.hrbtv.net",
   "source": "hebi_difang.m3u"
- },
- {
-  "name": "大爱1台",
-  "group": "地方台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV30.m3u8",
-  "latency_s": 4.29,
-  "host": "raw.githubusercontent.com",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "大爱2台",
-  "group": "地方台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV47.m3u8",
-  "latency_s": 4.21,
-  "host": "raw.githubusercontent.com",
-  "source": "hebi_gangtai.m3u"
  },
  {
   "name": "大立电视",
@@ -2944,22 +2872,6 @@
   "source": "zhi35.m3u"
  },
  {
-  "name": "无线新闻台",
-  "group": "地方台",
-  "url": "http://r.jdshipin.com/CkuBd",
-  "latency_s": 2.42,
-  "host": "r.jdshipin.com",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "无线新闻台",
-  "group": "地方台",
-  "url": "http://php.jdshipin.com/TVOD/iptv.php?id=wxxw",
-  "latency_s": 9.37,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
   "name": "无锡经济",
   "group": "地方台",
   "url": "http://live.xmcdn.com/live/563/64.m3u8",
@@ -2974,30 +2886,6 @@
   "latency_s": 1.39,
   "host": "jwcdnqx.hebyun.com.cn",
   "source": "zhi35.m3u"
- },
- {
-  "name": "明珠台",
-  "group": "地方台",
-  "url": "http://r.jdshipin.com/ZQ4kN",
-  "latency_s": 12.43,
-  "host": "r.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "明珠台",
-  "group": "地方台",
-  "url": "http://r.jdshipin.com/jUx8K",
-  "latency_s": 10.97,
-  "host": "r.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "明珠台",
-  "group": "地方台",
-  "url": "http://php.jdshipin.com/TVOD/iptv.php?id=mzt2",
-  "latency_s": 9.83,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
  },
  {
   "name": "晋江电视台",
@@ -3020,14 +2908,6 @@
   "group": "地方台",
   "url": "http://61.10.2.141/live_freedirect/hd110_h.live/playlist.m3u8",
   "latency_s": 2.07,
-  "host": "61.10.2.141",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "有线新闻台",
-  "group": "地方台",
-  "url": "http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u8",
-  "latency_s": 1.95,
   "host": "61.10.2.141",
   "source": "wmenjoy.m3u"
  },
@@ -3816,14 +3696,6 @@
   "source": "biggrand.m3u"
  },
  {
-  "name": "澳视卫星",
-  "group": "地方台",
-  "url": "http://r.jdshipin.com/QFhCq",
-  "latency_s": 7.78,
-  "host": "r.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
   "name": "灌阳新闻综合",
   "group": "地方台",
   "url": "https://ls.qingting.fm/live/5043/64k.m3u8",
@@ -3990,14 +3862,6 @@
   "latency_s": 1.45,
   "host": "rbmn-live.akamaized.net",
   "source": "wmenjoy.m3u"
- },
- {
-  "name": "纬来精采",
-  "group": "地方台",
-  "url": "http://61.221.215.25:8800/hls/48/index.m3u8",
-  "latency_s": 2.02,
-  "host": "61.221.215.25",
-  "source": "hebi_gangtai.m3u"
  },
  {
   "name": "经典剧集",
@@ -5557,462 +5421,6 @@
   "url": "https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8",
   "latency_s": 2.02,
   "host": "english-livetx.cgtn.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "TVB Plus",
-  "group": "港台",
-  "url": "http://php.jdshipin.com/TVOD/iptv.php?id=j2",
-  "latency_s": 9.0,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "TVBC",
-  "group": "港台",
-  "url": "https://stmv2.samcast.com.br/sandro9822/sandro9822/playlist.m3u8",
-  "latency_s": 3.75,
-  "host": "stmv2.samcast.com.br",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "TVBS Asia",
-  "group": "港台",
-  "url": "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8",
-  "latency_s": 2.01,
-  "host": "38.64.72.148",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "TVBS-Asia",
-  "group": "港台",
-  "url": "http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8",
-  "latency_s": 0.46,
-  "host": "38.64.72.148",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "TVBS亚洲",
-  "group": "港台",
-  "url": "http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8",
-  "latency_s": 2.08,
-  "host": "38.64.72.148",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "TVBS亚洲",
-  "group": "港台",
-  "url": "http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8",
-  "latency_s": 0.36,
-  "host": "38.64.72.148",
-  "source": "biggrand.m3u"
- },
- {
-  "name": "TVBS亚洲台",
-  "group": "港台",
-  "url": "http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8",
-  "latency_s": 0.74,
-  "host": "38.64.72.148",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "TVBS亞洲",
-  "group": "港台",
-  "url": "http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8",
-  "latency_s": 0.65,
-  "host": "38.64.72.148",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "TVBS新闻台",
-  "group": "港台",
-  "url": "http://61.221.215.25:8800/hls/9/index.m3u8",
-  "latency_s": 2.16,
-  "host": "61.221.215.25",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "TVBS网路新闻",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV31.m3u8",
-  "latency_s": 1.06,
-  "host": "raw.githubusercontent.com",
-  "source": "biggrand.m3u"
- },
- {
-  "name": "TVB娱乐新闻台",
-  "group": "港台",
-  "url": "http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw",
-  "latency_s": 10.04,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "TVB星河",
-  "group": "港台",
-  "url": "http://r.jdshipin.com/sXuuD",
-  "latency_s": 10.74,
-  "host": "r.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "TVB星河",
-  "group": "港台",
-  "url": "http://r.jdshipin.com/Voac4",
-  "latency_s": 11.44,
-  "host": "r.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "TVB星河",
-  "group": "港台",
-  "url": "http://php.jdshipin.com/TVOD/iptv.php?id=xinghe",
-  "latency_s": 9.71,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "TVB翡翠台 1080P",
-  "group": "港台",
-  "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3",
-  "latency_s": 4.33,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "TW台视新闻",
-  "group": "港台",
-  "url": "http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8",
-  "latency_s": 0.57,
-  "host": "38.64.72.148",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "TW台视新闻",
-  "group": "港台",
-  "url": "http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8",
-  "latency_s": 0.7,
-  "host": "38.64.72.148",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "三立INEWS",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV01.m3u8",
-  "latency_s": 0.39,
-  "host": "raw.githubusercontent.com",
-  "source": "biggrand.m3u"
- },
- {
-  "name": "三立NEWS+",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8",
-  "latency_s": 1.04,
-  "host": "raw.githubusercontent.com",
-  "source": "biggrand.m3u"
- },
- {
-  "name": "三立戏剧",
-  "group": "港台",
-  "url": "http://61.221.215.25:8800/hls/41/index.m3u8",
-  "latency_s": 3.27,
-  "host": "61.221.215.25",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "东森美洲卫视",
-  "group": "港台",
-  "url": "http://38.64.72.148/hls/modn/list/2015/playlist.m3u8",
-  "latency_s": 2.69,
-  "host": "38.64.72.148",
-  "source": "hebi_live_weishi.txt"
- },
- {
-  "name": "东森美洲卫视",
-  "group": "港台",
-  "url": "http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8",
-  "latency_s": 2.82,
-  "host": "38.64.72.148",
-  "source": "hebi_live_weishi.txt"
- },
- {
-  "name": "东森財经 HD",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8",
-  "latency_s": 4.06,
-  "host": "raw.githubusercontent.com",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "东森购物2",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV19.m3u8",
-  "latency_s": 4.34,
-  "host": "raw.githubusercontent.com",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "东森购物3",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV18.m3u8",
-  "latency_s": 4.11,
-  "host": "raw.githubusercontent.com",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "东森超视",
-  "group": "港台",
-  "url": "http://38.64.72.148:80/hls/modn/list/2013/chunklist0.m3u8",
-  "latency_s": 1.97,
-  "host": "38.64.72.148",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "中天新闻",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8",
-  "latency_s": 1.09,
-  "host": "raw.githubusercontent.com",
-  "source": "biggrand.m3u"
- },
- {
-  "name": "中天新闻「循环直播」",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8",
-  "latency_s": 1.29,
-  "host": "raw.githubusercontent.com",
-  "source": "biggrand.m3u"
- },
- {
-  "name": "凤凰中文",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV43.m3u8",
-  "latency_s": 0.84,
-  "host": "raw.githubusercontent.com",
-  "source": "biggrand.m3u"
- },
- {
-  "name": "凤凰中文",
-  "group": "港台",
-  "url": "https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8",
-  "latency_s": 2.74,
-  "host": "playtv-live.ifeng.com",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "凤凰中文",
-  "group": "港台",
-  "url": "http://r.jdshipin.com/cCCzW",
-  "latency_s": 1.94,
-  "host": "r.jdshipin.com",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "凤凰资讯",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV22.m3u8",
-  "latency_s": 0.98,
-  "host": "raw.githubusercontent.com",
-  "source": "biggrand.m3u"
- },
- {
-  "name": "凤凰资讯",
-  "group": "港台",
-  "url": "http://r.jdshipin.com/0Rp07",
-  "latency_s": 1.05,
-  "host": "r.jdshipin.com",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "凤凰资讯",
-  "group": "港台",
-  "url": "http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8?zgangd",
-  "latency_s": 1.17,
-  "host": "playtv-live.ifeng.com",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "凤凰资讯台",
-  "group": "港台",
-  "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhzx",
-  "latency_s": 9.27,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "凤凰香港",
-  "group": "港台",
-  "url": "http://r.jdshipin.com/yDoTN",
-  "latency_s": 3.68,
-  "host": "r.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "凤凰香港",
-  "group": "港台",
-  "url": "http://r.jdshipin.com/NfC0f",
-  "latency_s": 5.47,
-  "host": "r.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "凤凰香港台",
-  "group": "港台",
-  "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk",
-  "latency_s": 9.58,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "华丽翡翠台",
-  "group": "港台",
-  "url": "http://r.jdshipin.com/thuYX",
-  "latency_s": 11.58,
-  "host": "r.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "华丽翡翠台",
-  "group": "港台",
-  "url": "http://php.jdshipin.com/TVOD/iptv.php?id=huali2",
-  "latency_s": 11.14,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "台视新闻",
-  "group": "港台",
-  "url": "http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8",
-  "latency_s": 2.05,
-  "host": "38.64.72.148",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "台视新闻",
-  "group": "港台",
-  "url": "http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8",
-  "latency_s": 0.42,
-  "host": "38.64.72.148",
-  "source": "biggrand.m3u"
- },
- {
-  "name": "台视新闻",
-  "group": "港台",
-  "url": "http://38.64.72.148/hls/modn/list/4013/playlist.m3u8",
-  "latency_s": 1.45,
-  "host": "38.64.72.148",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "台视新闻",
-  "group": "港台",
-  "url": "http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8?blog.ntnas.top",
-  "latency_s": 1.08,
-  "host": "38.64.72.148",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "台视新闻 HD",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV25.m3u8",
-  "latency_s": 4.41,
-  "host": "raw.githubusercontent.com",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "民视新闻",
-  "group": "港台",
-  "url": "http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8",
-  "latency_s": 0.5,
-  "host": "38.64.72.148",
-  "source": "biggrand.m3u"
- },
- {
-  "name": "民视新闻",
-  "group": "港台",
-  "url": "http://38.64.72.148/hls/modn/list/4012/playlist.m3u8",
-  "latency_s": 1.21,
-  "host": "38.64.72.148",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "民视新闻 HD",
-  "group": "港台",
-  "url": "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8",
-  "latency_s": 3.74,
-  "host": "raw.githubusercontent.com",
-  "source": "hebi_gangtai.m3u"
- },
- {
-  "name": "民视新闻台",
-  "group": "港台",
-  "url": "http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8",
-  "latency_s": 0.32,
-  "host": "38.64.72.148",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "民视新闻台",
-  "group": "港台",
-  "url": "http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8",
-  "latency_s": 0.37,
-  "host": "38.64.72.148",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "澳视澳门",
-  "group": "港台",
-  "url": "http://r.jdshipin.com/n2YZI",
-  "latency_s": 7.5,
-  "host": "r.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "澳视澳门",
-  "group": "港台",
-  "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=asam",
-  "latency_s": 3.97,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "翡翠台",
-  "group": "港台",
-  "url": "http://r.jdshipin.com/GeWKr",
-  "latency_s": 11.42,
-  "host": "r.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "翡翠台",
-  "group": "港台",
-  "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4",
-  "latency_s": 9.11,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "翡翠台北美版",
-  "group": "港台",
-  "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1",
-  "latency_s": 11.2,
-  "host": "php.jdshipin.com",
-  "source": "suxuang.m3u"
- },
- {
-  "name": "香港佛陀",
-  "group": "港台",
-  "url": "https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8",
-  "latency_s": 1.91,
-  "host": "js1.amtb.cn",
-  "source": "wmenjoy.m3u"
- },
- {
-  "name": "香港卫视",
-  "group": "港台",
-  "url": "http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8",
-  "latency_s": 7.77,
-  "host": "webcast.hkstv.tv",
   "source": "suxuang.m3u"
  }
 ]

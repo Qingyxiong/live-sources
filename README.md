@@ -1,6 +1,7 @@
 # 直播源仓库
 
 央视 / 各省卫视 / 地方台直播源，只收 **IPv4**、三网（移动 / 联通 / 电信）通用源。
+只维护国内频道；港澳台频道已于 2026-11-17 移除，不再收录。
 每小时自动测活一次，失效的源自动下架、恢复后自动回榜。
 
 ## 订阅地址（TVBox / 影视仓 → 设置 → 配置地址 / 直播源）
@@ -11,7 +12,6 @@
 - 央视：https://raw.githubusercontent.com/Qingyxiong/live-sources/main/cctv.m3u
 - 卫视：https://raw.githubusercontent.com/Qingyxiong/live-sources/main/weishi.m3u
 - 地方台：https://raw.githubusercontent.com/Qingyxiong/live-sources/main/difang.m3u
-- 港台：https://raw.githubusercontent.com/Qingyxiong/live-sources/main/gangtai.m3u（TVB、TVBS、凤凰、中天、三立等，不在全量里）
 
 国内加载慢可换 jsDelivr 镜像（同一文件）：把 `raw.githubusercontent.com/Qingyxiong/live-sources/main/` 换成 `cdn.jsdelivr.net/gh/Qingyxiong/live-sources@main/`。
 
@@ -19,9 +19,8 @@
 |---|---|---|
 | `live.m3u` | 全量：央视 + 卫视 + 地方台 | 见 STATUS.md |
 | `cctv.m3u` | 央视 1–17、5+、8K、CGTN、央视数字付费频道 | 46 |
-| `weishi.m3u` | 各省卫视 | 38 |
-| `difang.m3u` | 中国各省内地方台（已剔除国外频道） | 412 |
-| `gangtai.m3u` | 港台频道（不进全量） | 39 |
+| `weishi.m3u` | 各省卫视 | 见 STATUS.md |
+| `difang.m3u` | 中国各省内地方台（已剔除国外频道） | 见 STATUS.md |
 
 EPG：`https://epg.erw.cc/all.xml`（已写在 m3u 文件头）
 
@@ -30,7 +29,7 @@ EPG：`https://epg.erw.cc/all.xml`（已写在 m3u 文件头）
 - 每个源每小时 GET 一次播放列表，要求 HTTP 200 且返回含 `#EXTM3U` 的有效列表，并且至少有一条 `#EXTINF` 分片或一条 `#EXT-X-STREAM-INF` 变体流，否则判失效（空列表/注广告的中继会被判失效）。
 - 每个频道最多保留 2 条线路：官方台网 CDN 优先，其次按延迟从低到高。
 - 失效源不删除，只下架：保留在 `sources.json` 中，每小时重测，恢复后自动回榜。
-- 排除项（不进库）：IPv6 地址、移动咪咕 `cmvideo.cn`、联通 `CUCC`、带过期鉴权参数（`Authinfo` / `txSecret` / `key=txiptv`）的源、私网地址；国外频道（BBC、RT、ABC、NBC、Arirang 等）、春晚/轮播/歌曲等点播条目、纯音频广播流。
+- 排除项（不进库）：IPv6 地址、移动咪咕 `cmvideo.cn`、联通 `CUCC`、带过期鉴权参数（`Authinfo` / `txSecret` / `key=txiptv`）的源、私网地址；港澳台频道（2026-11-17 起只维护国内频道，`gangtai.m3u` 已下线）；国外频道（BBC、RT、ABC、NBC、Arirang 等）、春晚/轮播/歌曲等点播条目、纯音频广播流。
 - 屏蔽名单（广告污染）：`74.91.26.218` 及其跳转目标 `192.187.115.106`、`69.197.146.178`——该中继 2026-11-09 被发现跳转到注广告的转流链，测活抓不到，已按主机名硬屏蔽。
 
 ## 当前状态
@@ -49,7 +48,7 @@ EPG：`https://epg.erw.cc/all.xml`（已写在 m3u 文件头）
 
 | 文件 | 用途 |
 |---|---|
-| `live.m3u` / `cctv.m3u` / `weishi.m3u` / `difang.m3u` / `gangtai.m3u` | 发布用的订阅文件，每小时重建 |
+| `live.m3u` / `cctv.m3u` / `weishi.m3u` / `difang.m3u` | 发布用的订阅文件，每小时重建 |
 | `sources.json` | 候选池：全部干净候选源及最近测活结果 |
 | `check_live.py` | 每小时测活脚本（`python3 check_live.py`） |
 | `build_repo.py` | 从上游测试结果初建仓库的脚本 |

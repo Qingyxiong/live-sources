@@ -95,8 +95,8 @@ def canon(name):
         # CCTV+ / CCTV-数字付费 / CGTN variants: keep name, group 央视
         disp = re.sub(r"(高清|超清|HD|4K|8K|标清).*$", "", n).strip(" -")
         return disp, "央视"
-    if re.search(r"香港|澳门|台湾|翡翠台|TVB|TVBS|港台|凤凰|三立|东森|中天|民视|华视|公视|台视|年代|壹电视", n):
-        return n, "港台"
+    if re.search(r"香港|澳门|台湾|翡翠台|明珠台|TVB|TVBS|港台|凤凰|三立|东森|中天|民视|华视|公视|台视|中视|八大|人間衛視|人间卫视|澳视|大爱|纬来|无线|有线新闻|年代|壹电视", n):
+        return None, None  # 港澳台频道已移除（2026-11-17），只维护国内频道
     if any(d in n for d in FOREIGN_CJK_DROP):
         return None, None  # foreign channel or song-MV entry
     if "「" in n or "」" in n:
@@ -197,14 +197,12 @@ def main():
 
     groups = {"央视": [c for c in chosen if c["group"] == "央视"],
               "卫视": [c for c in chosen if c["group"] == "卫视"],
-              "地方台": [c for c in chosen if c["group"] == "地方台"],
-              "港台": [c for c in chosen if c["group"] == "港台"]}
+              "地方台": [c for c in chosen if c["group"] == "地方台"]}
     for g, items in groups.items():
         print(f"{g}: {len(set(i['name'] for i in items))} channels, {len(items)} lines")
     write_m3u(os.path.join(ROOT, "cctv.m3u"), groups["央视"], "央视")
     write_m3u(os.path.join(ROOT, "weishi.m3u"), groups["卫视"], "卫视")
     write_m3u(os.path.join(ROOT, "difang.m3u"), groups["地方台"], "地方台")
-    write_m3u(os.path.join(ROOT, "gangtai.m3u"), groups["港台"], "港台")
     write_m3u(os.path.join(ROOT, "live.m3u"),
               groups["央视"] + groups["卫视"] + groups["地方台"], "全量")
 

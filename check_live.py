@@ -39,6 +39,9 @@ def main():
             prev = {}
 
     pool = json.load(open(src_path, encoding="utf-8"))
+    # 港澳台频道已移除（2026-11-17，用户要求只维护国内频道）：canon() 返回
+    # None 即丢弃，只用它做丢弃判断，不采用它的改名结果。
+    pool = [e for e in pool if canon(e["name"])[0] is not None]
     print(f"[{ts}] testing {len(pool)} candidates")
     results = {}
     with ThreadPoolExecutor(max_workers=24) as ex:
@@ -58,7 +61,7 @@ def main():
         if e["playable"]:
             by_channel[(e["group"], e["name"])].append(e)
 
-    chosen, groups = [], {"央视": [], "卫视": [], "地方台": [], "港台": []}
+    chosen, groups = [], {"央视": [], "卫视": [], "地方台": []}
     for (grp, name), lines in sorted(by_channel.items()):
         lines.sort(key=lambda x: (official_score(x["url"]),
                                   x["latency_s"] if x["latency_s"] is not None else 99))
@@ -76,7 +79,6 @@ def main():
     write_m3u(os.path.join(ROOT, "cctv.m3u"), groups["央视"])
     write_m3u(os.path.join(ROOT, "weishi.m3u"), groups["卫视"])
     write_m3u(os.path.join(ROOT, "difang.m3u"), groups["地方台"])
-    write_m3u(os.path.join(ROOT, "gangtai.m3u"), groups["港台"])
     write_m3u(os.path.join(ROOT, "live.m3u"),
               groups["央视"] + groups["卫视"] + groups["地方台"])
 
@@ -98,8 +100,7 @@ def main():
         f.write(f"- 候选源总数：{len(entries)}\n- 当前可用线路：{status['playable']}\n")
         f.write(f"- 覆盖频道：{len(by_channel)} 个（央视 {len(set(i['name'] for i in groups['央视']))} / "
                 f"卫视 {len(set(i['name'] for i in groups['卫视']))} / "
-                f"地方台 {len(set(i['name'] for i in groups['地方台']))} / "
-                f"港台 {len(set(i['name'] for i in groups['港台']))}）\n")
+                f"地方台 {len(set(i['name'] for i in groups['地方台']))}）\n")
         f.write(f"- 本次失效：{len(dead)} 条，其中新失效 {len(newly_dead)} 条\n")
         if newly_dead:
             f.write("\n## 本次新失效\n\n")
