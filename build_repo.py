@@ -82,6 +82,8 @@ def canon(name):
             or n.startswith("[") or n.startswith(("RT ", "RT-", "Channel News Asia", "韩国"))
             or n == "特种兵之火凤凰"):
         return None, None
+    if re.search(r"[\uac00-\ud7af]", n):
+        return None, None  # Korean-named channel (e.g. 국방国防TV, .kr host) — domestic only per 2026-11-17; CJK 国防 in its name must not let it through
     u = n.upper()
     if u.startswith("CCTV") or u.startswith("CGTN"):
         m = re.search(r"CCTV[- ]?(5\+|4K|8K|\d+)", n, re.I)
